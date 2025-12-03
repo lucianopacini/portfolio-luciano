@@ -1,0 +1,122 @@
+<!-- FILE: contact.html -->
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Luciano Pacini — Portfolio</title>
+    <meta name="description" content="Portfolio di Luciano Pacini — Future Full Stack Developer">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Luciano Pacini — Portfolio">
+    <meta property="og:description" content="Portfolio di Luciano Pacini — HTML, CSS, progetti in arrivo">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://TUO_USERNAME.github.io/portfolio/">
+    <meta property="og:image" content="/assets/og-image.png">
+    <link rel="icon" href="/assets/favicon.ico">
+    <!-- CSS (compiled from SCSS) -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-wrapper">
+                <img src="assets/images/miologo.png" alt="Logo LP" class="logo-img">
+                <h1 class="logo-text">Luciano Pacini</h1>
+            </div>
+
+            <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">☰</button>
+
+            <nav id="primary-nav" class="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="projects.html">Progetti</a></li>
+                    <li><a href="contact.html">Contattami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ==== Contact Section – Luciano Edition ==== -->
+
+    <section class="contact" id="contact" role="main">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <p class="contact-intro">Hai un progetto? Un’idea? Parliamone!</p>
+
+        <div class="contact-card">
+            <form name="formmail" method="POST" action="https://formspree.io/f/xayzjqpp">
+                <div class="input-box">
+                    <input type="text" name="text" placeholder="Nome e Cognome" required>
+                    <input type="email" name="email" placeholder="Indirizzo Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="number" placeholder="Numero di telefono" required>
+                    <input type="text" name="subject" placeholder="Oggetto" required>
+                </div>
+
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Il tuo messaggio..."
+                    required></textarea>
+
+                <div class="button-box">
+                    <input type="reset" value="Reset" id="reset" class="btn">
+                    <input type="submit" value="Invia" id="Submit" class="btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="social-text">Seguimi:</p>
+            <div class="social-links">
+                <a href="https://github.com/lucianopacini" target="_blank" rel="noopener noreferrer" title="GitHub"
+                    class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/tuo-username/" target="_blank" rel="noopener noreferrer"
+                    title="LinkedIn" class="fab fa-linkedin"></a>
+                <a href="https://www.instagram.com/luciano.pacini.del.principe/" target="_blank"
+                    rel="noopener noreferrer" title="Instagram" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/lucianodelprincipe/" target="_blank" rel="noopener noreferrer"
+                    title="Facebook" class="fab fa-facebook"></a>
+                <a href="https://www.youtube.com/@Theitaliandandy" target="_blank" rel="noopener noreferrer"
+                    title="YouTube" class="fab fa-youtube"></a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Luciano Pacini</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script>
+        document.forms['formmail'].addEventListener('submit', function () {
+            alert('🌞 Grazie per avermi contattato! Ti risponderò presto.');
+        });
+    </script>
+
+    <script>
+        // Navbar sticky dinamica quando si scorre
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector(".site-header");
+            if (window.scrollY > 50) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

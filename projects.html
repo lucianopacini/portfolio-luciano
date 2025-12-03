@@ -1,0 +1,144 @@
+<!-- FILE: projects.html -->
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Luciano Pacini — Portfolio</title>
+    <meta name="description" content="Portfolio di Luciano Pacini — Future Full Stack Developer">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Luciano Pacini — Portfolio">
+    <meta property="og:description" content="Portfolio di Luciano Pacini — HTML, CSS, progetti in arrivo">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://TUO_USERNAME.github.io/portfolio/">
+    <meta property="og:image" content="/assets/og-image.png">
+    <link rel="icon" href="/assets/favicon.ico">
+    <!-- CSS (compiled from SCSS) -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-wrapper">
+                <img src="assets/images/miologo.png" alt="Logo LP" class="logo-img">
+                <h1 class="logo-text">Luciano Pacini</h1>
+            </div>
+
+            <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">☰</button>
+
+            <nav id="primary-nav" class="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="projects.html">Progetti</a></li>
+                    <li><a href="contact.html">Contattami</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="projects-section" role="main">
+        <h2 class="section-title fade-title">
+            I miei <span>progetti</span>
+        </h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="assets/images/nasa-JHyiw_dpALk-unsplash (1).jpg" alt="Anteprima Landing Page"
+                    class="project-img">
+                <h3>Landing Page — Energia Solare</h3>
+                <p>Un progetto moderno con layout responsivo, effetti di luce e stile elegante.</p>
+                <a href="#" class="btn disabled">In arrivo</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="Anteprima Landing Page"
+                    class="project-img">
+                <h3>Portfolio Minimal</h3>
+                <p>Una pagina elegante e pulita per mostrare la propria identità digitale.</p>
+                <a href="#" class="btn disabled">In arrivo</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/thomas-bormans-pcpsVsyFp_s-unsplash.jpg" alt="Anteprima Landing Page"
+                    class="project-img">
+                <h3>App To-Do (JavaScript)</h3>
+                <p>Una piccola applicazione front-end per gestire le attività.</p>
+                <a href="#" class="btn disabled">In arrivo</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/abid-shah-sff8Ow-YiWY-unsplash.jpg" alt="Anteprima Landing Page"
+                    class="project-img">
+                <h3>Web App Meteo</h3>
+                <p>Una piccola applicazione per consultare le previsioni meteo in tempo reale.</p>
+                <a href="#" class="btn disabled">In arrivo</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/guillaume-coupy-7sIQFJX2_FY-unsplash.jpg" alt="Anteprima Landing Page"
+                    class="project-img">
+                <h3>Blog Minimalista</h3>
+                <p>Un blog elegante e responsivo per condividere articoli e contenuti personali.</p>
+                <a href="#" class="btn disabled">In arrivo</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/y-m-yhVDhfE3-eU-unsplash (1).jpg" alt="Anteprima Landing Page"
+                    class="project-img">
+                <h3>Calcolatrice Interattiva</h3>
+                <p>Progetto JavaScript per calcoli veloci con interfaccia intuitiva e design moderno.</p>
+                <a href="#" class="btn disabled">In arrivo</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="social-text">Seguimi:</p>
+            <div class="social-links">
+                <a href="https://github.com/lucianopacini" target="_blank" rel="noopener noreferrer" title="GitHub"
+                    class="fab fa-github"></a>
+                <a href="https://www.linkedin.com/in/tuo-username/" target="_blank" rel="noopener noreferrer"
+                    title="LinkedIn" class="fab fa-linkedin"></a>
+                <a href="https://www.instagram.com/luciano.pacini.del.principe/" target="_blank"
+                    rel="noopener noreferrer" title="Instagram" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/lucianodelprincipe/" target="_blank" rel="noopener noreferrer"
+                    title="Facebook" class="fab fa-facebook"></a>
+                <a href="https://www.youtube.com/@Theitaliandandy" target="_blank" rel="noopener noreferrer"
+                    title="YouTube" class="fab fa-youtube"></a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Luciano Pacini</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script>
+        // Navbar sticky dinamica quando si scorre
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector(".site-header");
+            if (window.scrollY > 50) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

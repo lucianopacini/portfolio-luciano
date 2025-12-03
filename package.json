@@ -1,0 +1,16 @@
+{
+  "name": "progetto-html-e-css-di-luciano-pacini",
+  "version": "1.0.0",
+  "description": "<!-- FILE: README.md -->\r # Portfolio di Luciano Pacini",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch css/styles.scss css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}
