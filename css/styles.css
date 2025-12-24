@@ -866,6 +866,14 @@ body {
   cursor: not-allowed;
 }
 
+.project-card .btn {
+  margin-top: 0.8rem;
+}
+
+.project-card .btn + .btn {
+  margin-top: 0.6rem;
+}
+
 .section-title {
   font-size: 2.5rem;
   color: #f7b500;

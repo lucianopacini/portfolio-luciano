@@ -953,6 +953,15 @@ body {
     }
 }
 
+.project-card .btn {
+    margin-top: 0.8rem;
+}
+
+.project-card .btn+.btn {
+    margin-top: 0.6rem;
+}
+
+
 .section-title {
     font-size: 2.5rem;
     color: $main-color;
@@ -1000,12 +1009,6 @@ body {
         min-height: 100vh;
     }
 }
-
-
-
-
-
-
 
 
 /* =========================
