@@ -642,12 +642,12 @@ body {
 
 /* === SOFT SKILLS — COLONNA 1 === */
 .skills-row:nth-of-type(2) .skills-column:nth-child(1) .progress.soft:nth-child(1) .bar span {
-  --bar-width: 99%;
+  --bar-width: 100%;
 }
 
 /* Empatia */
 .skills-row:nth-of-type(2) .skills-column:nth-child(1) .progress.soft:nth-child(2) .bar span {
-  --bar-width: 95%;
+  --bar-width: 100%;
   /* Pazienza */
 }
 
@@ -657,7 +657,7 @@ body {
 }
 
 .skills-row:nth-of-type(2) .skills-column:nth-child(1) .progress.soft:nth-child(4) .bar span {
-  --bar-width: 95%;
+  --bar-width: 100%;
   /* Resilienza */
 }
 
@@ -674,7 +674,7 @@ body {
 }
 
 .skills-row:nth-of-type(2) .skills-column:nth-child(2) .progress.soft:nth-child(3) .bar span {
-  --bar-width: 99%;
+  --bar-width: 100%;
   /* Comunicazione efficace */
 }
 
@@ -844,7 +844,6 @@ body {
   color: #000;
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  text-justify: distribute-all-lines;
 }
 .project-card .btn {
   display: block;
