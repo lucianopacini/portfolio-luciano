@@ -681,12 +681,12 @@ body {
 }
 
 .skills-row .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    --bar-width: 30%;
+    --bar-width: 50%;
     /* JavaScript */
 }
 
 .skills-row .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    --bar-width: 30%;
+    --bar-width: 50%;
     /* Git & GitHub */
 }
 
@@ -702,8 +702,8 @@ body {
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    --bar-width: 10%;
-    /* Angular */
+    --bar-width: 30%;
+    /* Typescript */
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
