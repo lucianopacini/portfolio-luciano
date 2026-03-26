@@ -621,7 +621,7 @@ body {
 
 /* === TECH SKILLS — COLONNA 2 === */
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-  --bar-width: 10%;
+  --bar-width: 50%;
   /* React */
 }
 
