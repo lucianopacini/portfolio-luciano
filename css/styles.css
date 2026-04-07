@@ -626,7 +626,7 @@ body {
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-  --bar-width: 10%;
+  --bar-width: 50%;
   /* Node.js */
 }
 
@@ -636,7 +636,7 @@ body {
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-  --bar-width: 10%;
+  --bar-width: 50%;
   /* PHP & MySQL */
 }
 
