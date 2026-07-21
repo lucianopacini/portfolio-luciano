@@ -610,33 +610,33 @@ body {
 }
 
 .skills-row .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-  --bar-width: 50%;
+  --bar-width: 95%;
   /* JavaScript */
 }
 
 .skills-row .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-  --bar-width: 50%;
+  --bar-width: 95%;
   /* Git & GitHub */
 }
 
 /* === TECH SKILLS — COLONNA 2 === */
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-  --bar-width: 50%;
+  --bar-width: 95%;
   /* React */
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-  --bar-width: 50%;
+  --bar-width: 95%;
   /* Node.js */
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-  --bar-width: 50%;
+  --bar-width: 95%;
   /* Typescript */
 }
 
 .skills-row .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-  --bar-width: 50%;
+  --bar-width: 95%;
   /* PHP & MySQL */
 }
 
